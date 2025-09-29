@@ -35,7 +35,7 @@ export const Footer = () => {
                 className="inline-flex items-center gap-1.5"
               >
                 <span className="font-semibold">{link.title}</span>
-                <ArrowUp className="size-4" />
+                {/* <ArrowUp className="size-4" /> */}
               </a>
             ))}
           </nav>
