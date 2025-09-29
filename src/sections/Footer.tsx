@@ -4,20 +4,16 @@ import ArrowUp from "@/assets/icons/arrow-up-right.svg";
 const footerLinks=[
   {
     title: 'GitHub',
-    href: '#'
-  },
-  {
-    title: 'Twitter',
-    href: '#'
-  },
-  {
-    title: 'Instagram',
-    href: '#'
+    href: 'https://github.com/GhulamMuhammadNabeel'
   },
   {
     title: 'LinkedIn',
-    href: '#'
+    href: 'https://www.linkedin.com/in/ghulam-muhammad-nabeel-a6997a313/'
   },
+  {
+    titlw: 'Kaggle',
+    href: 'https://www.kaggle.com/nabeelqureshitiii'
+  }
 ]
 
 export const Footer = () => {
