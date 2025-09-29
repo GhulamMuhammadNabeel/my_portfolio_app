@@ -9,9 +9,38 @@ const calistoga = Calistoga({
   variable: "--font-serif",
   weight: ["400"],
 });
+
 export const metadata: Metadata = {
-  title: "Ghulam Muhammad Nabeel",
-  description: "My Professional Portfolio",
+  title: "Ghulam Muhammad Nabeel | Data Analyst & Aspiring Data Scientist",
+  description:
+    "Official portfolio of Ghulam Muhammad Nabeel, Data Analyst and aspiring Data Scientist from Multan, Pakistan. Skilled in exploratory data analysis, insights generation, and freelance research. Student at MNSUAM with professional presence on LinkedIn and Kaggle.",
+  keywords: [
+    "Ghulam Muhammad Nabeel",
+    "Data Analyst",
+    "Data Scientist",
+    "Exploratory Data Analysis",
+    "EDA",
+    "MNSUAM",
+    "Multan",
+    "Portfolio",
+    "LinkedIn",
+    "Kaggle",
+  ],
+  openGraph: {
+    title: "Ghulam Muhammad Nabeel | Data Analyst & Aspiring Data Scientist",
+    description:
+      "Portfolio showcasing the projects, skills, and achievements of Ghulam Muhammad Nabeel — Data Analyst, Aspiring Data Scientist, and freelance researcher from Multan, Pakistan.",
+    url: "https://ghulam-muhammad-nabeel.vercel.app",
+    siteName: "Ghulam Muhammad Nabeel",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ghulam Muhammad Nabeel | Data Analyst & Aspiring Data Scientist",
+    description:
+      "Explore the portfolio of Ghulam Muhammad Nabeel — Data Analyst and aspiring Data Scientist from Multan, Pakistan.",
+  },
 };
 
 export default function RootLayout({
